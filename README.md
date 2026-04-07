@@ -1,4 +1,11 @@
 ## Bem vindo (a) Starlen Calçados🌠
+Somos uma empresa que garante qualidade e conforto para os pequenos✨
+
+* Nossos calçados são fáceis de limpar⭐
+* Duráveis e macios🌟
+* Ideais para o dia a dia🌠
+
+**Confira agora e garanta o par perfeito!**
 
 <!--
 **starlencalcados/StarlenCalcados** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
