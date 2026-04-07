@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="port">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starlen Shoes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff69b4, #8a2be2);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, #8a2be2, #ff69b4);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      background-color: #f9f9f9;
+    }
+
+    .product {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      background: linear-gradient(90deg, #ff69b4, #8a2be2);
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Starlen Shoes</h1>
+  <p>Magical Shoes for Kids ✨</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Comfort, Style & Fun</h2>
+  <p>Discover the cutest shoes for your little ones!</p>
+</section>
+
+<section id="products" class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Shoe 1">
+    <h3>Pink Star Sandal</h3>
+    <p>$29.99</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Shoe 2">
+    <h3>Purple Dream Crocs</h3>
+    <p>$34.99</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Shoe 3">
+    <h3>Black Star Sneakers</h3>
+    <p>$39.99</p>
+    <button>Buy Now</button>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>© 2026 Starlen Shoes | Contact: starlen@email.com</p>
+</footer>
+
+</body>
+</html>
